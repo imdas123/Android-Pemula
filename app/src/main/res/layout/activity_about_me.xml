@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutMe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/backgrount"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/layout1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gambar_diri"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/foto_formal"/>
+
+        <TextView
+            android:id="@+id/namaku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="about me"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#3949AB"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/emailku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/mail"
+            android:drawableTint="#EF5A2B"
+            android:textColor="#00897B"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomorku"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/call"
+            android:drawableTint="#EF5A2B"
+            android:textColor="#00897B"
+            android:fontFamily="sans-serif"/>
+
+    </LinearLayout>
+
+</LinearLayout>
